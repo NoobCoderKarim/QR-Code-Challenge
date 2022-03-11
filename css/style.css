@@ -1,0 +1,46 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.bigbox{
+    background-color: white;
+    height: 470px;
+    width: 280px;
+    border-radius: 20px;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.bigbox p{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+.bigbox h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+.textbox{
+    padding: 0px;
+}
+.imagebox{
+    width: 100%;
+    height: 60%;
+}
+.image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.attribution{
+    position: fixed;
+    bottom: 10px;
+    padding: 5px;
+}
